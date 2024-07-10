@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    My portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Aditya Puppala, front-end webdevelopment, python" />
+  <link rel="stylesheet" href="paditya.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Aditya Puppala</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A software Developer from vizag, Andhra Pradesh.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Portfolio Template</h3>
+              <p>
+                A free Open Source Portfolio for anyone to use for free.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="github.com/paditya17" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/paditya17/adi-portfolio.git" title="View Source Code" target="_blank">
+                  <img src="github.jpg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="WhatsApp Image (2).jpeg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="">         
+               <h3>Calculator</h3>
+              <p>
+                to print this calculator using html, css, and java scripit.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java script</li>
+    
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="https://github.com/paditya17/adi-portfolio.git" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="calculator1.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="github.jpg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="netflix.jpg" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="apple.jpg" class="client__logo" alt="Company 2" />
+          <img src="codepen 2.jpg" class="client__logo" alt="Company 3" />
+          <img src="infosys.jpg" class="client__logo" alt="Company 1" />
+          <img src="w3schools.jpg" class="client__logo" alt="Company 1" />
+          <img src="microsoft.jpg" class="client__logo" alt="Company 3" />
+          <img src="javatpoint.jpg" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              this is aditya, i'm from vizag, i'm completing my 
+              graduation at "Avanthi institute of engineering and technology from 
+              dept.of CSE". i'm looking for to enhance my skills. <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="img13.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a fast-performing and user-friendly website to
+          represent your product or business? or looking for any kind of
+          consultation? or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:you@example.com" class="btn">adityapuppala7@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://x.com/AdityaPuppala5/" title="Link to Twitter Profile">
+            <img src="twitter.jpg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https:://github.com/paditya17" title="Link to Github Profile">
+            <img src="github.jpg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/aditya-puppala" title="Link to Codepen Profile">
+            <img src="codepen.jpg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://puppala-aditya-87921028b/">
+            <img src="linkedin.jpg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="" class="link">Aditya</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=github.com/paditya17&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="arrow-removebg-preview.png" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="paditya.js"></script>
+</body>
+
+</html>
